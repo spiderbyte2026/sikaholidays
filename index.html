@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+\   
     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <body>
     <nav class="navbar">
         <div class="nav-container">
@@ -132,11 +133,11 @@
     <section class="why-choose" id="fleet">
         <div class="container">
             <div class="fleet-section">
-                
+                <DIV>
                     <div class="fleet-image-container">
                     </div>
-    
-                <div class="content-column">
+                    </DIV>
+                    <div>
                     <h2 class="section-title">Why Choose <br><span class="holidays">Sika Holidays?</span></h2>
                     <ul class="features-list">
                         <li class="feature-item">
@@ -168,7 +169,59 @@
                             </div>
                         </li>
                     </ul>
+                    </div>
                 </div>
+            
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-card ">
+                <div class="contact-info">
+                    <h2 class="section-title">Let's <span class="holidays">Connect</span></h2>
+                    <p>Ready to start your Malaysian adventure? Get in touch with us today for bookings and inquiries.</p>
+                    
+                    <div >
+                        <a href="mailto:sikaholidays@gmail.com" class="contact-us">
+                            <i class="fas fa-envelope"></i>
+                            <span>sikaholidays@gmail.com</span>
+                        </a>
+        
+                        <div class="contact-us">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Kuala Lumpur, Malaysia</span>
+                        </div>
+                    </div>
+                    
+                    <div class="socialmedia-links ">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="bookingForm">
+                    <h3 class="form-title">Request a Quote</h3>
+                    <div class="form">
+                        <input type="text" id="name" class="msg-container" placeholder="Your Name" required>
+                    </div>
+                    <div class="form">
+                        <input type="email" id="email" class="msg-container" placeholder="Your Email" required>
+                    </div>
+                    <div class="form">
+                        <select id="service" class="msg-container" required>
+                            <option value="disabled selected" >Select a Service</option>
+                            <option value="transport">Transport Services</option>
+                            <option value="tour">Customised Tour</option>
+                            <option value="hotel">Hotel Booking</option>
+                            <option value="other">Other Inquiry</option>
+                        </select>
+                    </div>
+                    <div class="form">
+                        <textarea id="message" class="msg-container" rows="4" placeholder="Tell us about your trip..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Request</button>
+                </form>
             </div>
         </div>
     </section>
